@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="860px" height="180px" viewBox="0 0 860 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <path d="M74.2874295,40.1213626 C97.8229597,68.9352842 109.162433,98.5072642 99.6148941,106.17228 C90.0672714,113.837193 63.2481109,96.692576 39.7125807,67.8786544 C16.1770505,39.0647328 4.83757705,9.49275277 14.3851161,1.82773666 C23.9327387,-5.83717618 50.7518992,11.307441 74.2874295,40.1213626 Z M70.2198002,43.3869263 C59.0934235,29.7652002 46.9151968,18.4711315 36.2543638,11.6560076 C26.8246436,5.62789416 19.953392,4.03454954 17.6790462,5.86040771 C15.4047262,7.68629779 15.5481633,14.6808493 19.5351659,25.0784715 C24.0426982,36.8335724 32.6538333,50.9913646 43.78021,64.6130906 C54.9065867,78.2348167 67.0848134,89.5288855 77.7456464,96.3440093 C87.1753665,102.372123 94.0466181,103.965467 96.320964,102.139609 C98.5952839,100.313719 98.4518469,93.3191677 94.4648443,82.9215455 C89.957312,71.1664445 81.3461769,57.0086524 70.2198002,43.3869263 Z" id="path-1"></path>
+        <filter x="-13.6%" y="-7.9%" width="127.2%" height="123.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.929411765   0 0 0 0 0.839215686  0 0 0 0.347683566 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M63.2874295,51.1213626 C86.8229597,79.9352842 98.1624331,109.507264 88.6148941,117.17228 C79.0672714,124.837193 52.2481109,107.692576 28.7125807,78.8786544 C5.17705049,50.0647328 -6.16242295,20.4927528 3.38511609,12.8277367 C12.9327387,5.16282382 39.7518992,22.307441 63.2874295,51.1213626 Z M59.2198002,54.3869263 C48.0934235,40.7652002 35.9151968,29.4711315 25.2543638,22.6560076 C15.8246436,16.6278942 8.95339202,15.0345495 6.67904621,16.8604077 C4.40472624,18.6862978 4.5481633,25.6808493 8.53516586,36.0784715 C13.0426982,47.8335724 21.6538333,61.9913646 32.78021,75.6130906 C43.9065867,89.2348167 56.0848134,100.528885 66.7456464,107.344009 C76.1753665,113.372123 83.0466181,114.965467 85.320964,113.139609 C87.5952839,111.313719 87.4518469,104.319168 83.4648443,93.9215455 C78.957312,82.1664445 70.3461769,68.0086524 59.2198002,54.3869263 Z" id="path-3"></path>
+        <filter x="-13.6%" y="-7.9%" width="127.2%" height="123.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.929411765   0 0 0 0 0.839215686  0 0 0 0.347683566 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="PEGASUSFORGE" font-family="AvenirNext-Bold, Avenir Next" font-size="80" font-weight="bold" letter-spacing="-1.06285714" fill="#FBFBFB">
+            <tspan x="168" y="117">PEGASUS</tspan>
+            <tspan x="533.76" y="117" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">FORGE</tspan>
+        </text>
+        <g id="rings" transform="translate(45, 32)" fill-rule="nonzero">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFEDD6" xlink:href="#path-1"></use>
+            </g>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFEDD6" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

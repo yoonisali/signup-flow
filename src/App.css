@@ -1,0 +1,237 @@
+/* Update body for better centering */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', 'Helvetica', sans-serif;
+  background-color: #01121A;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* New login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* New login card for rounded design */
+.login-card {
+  background-color: #003247;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px; /* Increased width */
+  text-align: center;
+}
+
+/* Logo styling */
+.login-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Login heading */
+.login-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Make form slightly wider */
+.login-form {
+  width: 100%;
+  max-width: 350px; /* 🔹 Increased width */
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #22B08B;
+}
+
+/* Move input labels to top-left */
+.login-label {
+  display: block;
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Adds spacing between label and input */
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%; /* Ensures alignment */
+}
+
+/* Fix "Forgot Password" position */
+.forgot-password {
+  text-align: right; /* 🔹 Aligns text to the right */
+  margin-top: -10px; /* 🔹 Moves it closer to the input */
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+/* Sign-in button */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #22B08B;
+  color: #01121A;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #fff;
+  color: #022C3D;
+}
+
+/* Sign-up text */
+.signup-text {
+  font-size: 0.9rem;
+}
+
+/* OR separator */
+.or-separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #F7F7F7;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #fff;
+  margin: 0 10px;
+}
+
+/* Forgot password + Signup link */
+.login-container a {
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* SSO Button Container */
+.sso-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+/* "Login with" text - Only show on mobile */
+.sso-label {
+  display: none; /* Hide by default */
+}
+
+/* General SSO Button Styling */
+.sso-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F7F7F7;
+  color: #000;
+  gap: 10px;
+}
+
+/* Hover Effects */
+.sso-button:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-1px);
+}
+
+/* SSO Button Logos */
+.sso-logo {
+  width: 24px;
+  height: 24px;
+}
+
+/* SSO Button Text */
+.sso-text {
+  display: block; /* Ensure text is visible on desktop */
+}
+
+/* Mobile: Make buttons circular & only show logos */
+@media (max-width: 768px) {
+  .sso-buttons {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sso-button {
+    width: 50px !important; /* Make buttons circular */
+    height: 50px !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .sso-logo {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .sso-text {
+    display: none !important; /* Hide text on mobile */
+  }
+
+  /* Show "Login with" text only on mobile */
+  .sso-label {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .login-card {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
+
