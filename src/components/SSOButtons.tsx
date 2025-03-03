@@ -19,7 +19,6 @@ const SSOButtons = () => {
       const err = error as Error;
       alert(`Sign-In failed: ${err.message}`);
     }
-
   };
 
   return (
